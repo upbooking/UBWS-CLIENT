@@ -1,5 +1,5 @@
 <?
-require($_SERVER['DOCUMENT_ROOT'].'/public/ubapi-client/connections/wsdl.php'); 
+require($_SERVER['DOCUMENT_ROOT'].'/ubapi-client/connections/wsdl.php'); 
 
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">

@@ -7,7 +7,7 @@ $authRequest = array(
 );
 
 // Define App Path
-$_WSDL_APP_PATH = $_SERVER['DOCUMENT_ROOT'].'/public/ubapi-client';
+$_WSDL_APP_PATH = $_SERVER['DOCUMENT_ROOT'].'/ubapi-client';
 // Define Cache timing
 $_WSDL_CACHING_TIME = 3600;
 
