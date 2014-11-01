@@ -13,10 +13,13 @@ $_WSDL_CACHING_TIME = 3600;
 
 
 
-##################### MICROCACHING SYSTEM ####################
+########## MICROCACHING SYSTEM ##########
 
 // Define Cache Path 
 define( 'CACHE_PATH', $_WSDL_APP_PATH.'/cache'); 
+
+################ AUTOLOAD ###############
+include($_WSDL_APP_PATH.'/includes/autoload.php');
 
 // this is a simple cache class, the performance is not good
 // and is better to change it with some serious caching system
