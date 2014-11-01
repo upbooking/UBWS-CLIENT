@@ -18,6 +18,8 @@ $_WSDL_CACHING_TIME = 3600;
 // Define Cache Path 
 define( 'CACHE_PATH', $_WSDL_APP_PATH.'/cache'); 
 
+// this is a simple cache class, the performance is not good
+// and is better to change it with some serious caching system
 class class_cache { 
      
     public $check_cache = false; 
